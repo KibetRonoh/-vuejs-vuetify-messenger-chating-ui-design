@@ -8,7 +8,7 @@
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
-            <v-list flat>>
+            <v-list flat>
                 <v-list-item router to="/">
                 <v-list-item-content>
                     <v-icon class="mb-2" color="grey">fas fa-file-alt</v-icon>
