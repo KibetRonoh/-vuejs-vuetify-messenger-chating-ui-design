@@ -1,6 +1,7 @@
 <template>
   <v-app :style="{background: $vuetify.theme.themes.dark.background}">
-    <v-row>
+    <v-container fluid>
+      <v-row>
         <v-col cols="12" sm="3" class="border">
           
             <v-app-bar flat color="rgba(0,0,0,0)">
