@@ -1,21 +1,9 @@
 <template>
   <v-app :style="{background: $vuetify.theme.themes.dark.background}">
     <v-container fluid>
-      <v-row>
-        <v-col cols="12" sm="3" class="border">
-          
-            <v-app-bar flat color="rgba(0,0,0,0)">
-               <v-btn
-                tile
-                color="white" x-large block>
-                <v-icon left color="blue">
-                fas fa-plus
+     
                 </v-icon>
-                <v-divider
-                  class="mx-3"
-                  vertical
-                ></v-divider>
-                New Conversation
+         
               </v-btn>
             </v-app-bar>
            
