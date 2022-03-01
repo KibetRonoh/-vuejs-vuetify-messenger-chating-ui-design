@@ -1,11 +1,6 @@
 <template>
     <nav>
-        <v-navigation-drawer v-model="drawer" dark app mini-variant mini-variant-width="100" class="white">
-            <v-list>
-                <v-list-item class="mb-16">
-                    <v-list-item-content>
-                        <v-icon class="mb-2" large color="blue">fas fa-dove</v-icon>
-                    </v-list-item-content>
+               </v-list-item-content>
                 </v-list-item>
             </v-list>
             <v-list flat>
