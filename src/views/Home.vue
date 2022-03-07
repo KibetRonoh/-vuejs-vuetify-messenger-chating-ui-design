@@ -135,7 +135,13 @@
                 offset-x="10"
                 offset-y="10"
               >
-            
+            <v-avatar class="mt-n5 " size="30" elevation="10">
+                  <img src="https://cdn.vuetifyjs.com/images/lists/5.jpg" />
+            </v-avatar>
+            </v-badge>
+          </v-app-bar>
+           <v-app-bar color="rgba(0,0,0,0)" flat class="mb-16">
+          <v-badge
                 bordered
                 bottom
                 color="green"
