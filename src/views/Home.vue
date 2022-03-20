@@ -4,7 +4,16 @@
      
                 </v-icon>
                 <v-divider
-          
+                  class="mx-3"
+                  vertical
+                ></v-divider>
+                New Conversation
+              </v-btn>
+            </v-app-bar>
+           
+              <v-app-bar flat color="rgba(0,0,0,0)">
+                <v-toolbar-title class="title">
+              Chat 
             </v-toolbar-title>
 
             <v-spacer></v-spacer>
