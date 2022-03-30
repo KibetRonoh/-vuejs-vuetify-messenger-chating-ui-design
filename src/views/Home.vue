@@ -141,13 +141,7 @@
             </v-badge>
           </v-app-bar>
            <v-app-bar color="rgba(0,0,0,0)" flat class="mb-16">
-          <v-badge
-                bordered
-                bottom
-                color="green"
-                dot
-                offset-x="16"
-                offset-y="9"
+
               >
             <v-avatar class="mt-n5 mr-2" size="30" elevation="10">
                   <img src="https://cdn.vuetifyjs.com/images/lists/1.jpg" />
