@@ -33,7 +33,43 @@
           ></v-text-field>
              </v-app-bar>
             
+ <v-list two-line color="rgba(0,0,0,0)">
+      <v-list-item-group
+        v-model="selected"
+        active-class="blue lighten-4"
+        multiple
+      >
+        <template v-for="(item, index) in items">
+          <v-list-item :key="item.title">
+            <v-badge
+        bordered
+        bottom
+        color="green"
+        dot
+        offset-x="22"
+        offset-y="26"
+      >
+            <v-list-item-avatar>
+            <v-img :src="item.avatar"></v-img>
+          </v-list-item-avatar>
+            </v-badge>
+            <template >
+              <v-list-item-content>
+                <v-list-item-title v-text="item.title"></v-list-item-title>
 
+                <v-list-item-subtitle v-text="item.subtitle"></v-list-item-subtitle>
+              </v-list-item-content>
+            </template>
+          </v-list-item>
+
+          <v-divider
+            v-if="index < items.length - 1"
+            :key="index"
+          ></v-divider>
+        </template>
+      </v-list-item-group>
+    </v-list>
+           
         </v-col>
         <v-col cols="12" sm="6" class="border">
           <v-app-bar color="rgba(0,0,0,0)" flat>
