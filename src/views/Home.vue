@@ -4,7 +4,9 @@
      
                 </v-icon>
                 <v-divider
-        
+                  class="mx-3"
+                  vertical
+                ></v-divider>
                 New Conversation
               </v-btn>
             </v-app-bar>
